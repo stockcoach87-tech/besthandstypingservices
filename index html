@@ -2,27 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Best Hands Typing Service - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEST HANDS TYPING SERVICE - L.L.C - S.P.C | Abu Dhabi</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-50">
-    <nav class="bg-blue-900 p-4 text-white flex justify-between shadow-lg">
-        <h1 class="font-bold">Best Hands Typing Service</h1>
-        <div class="space-x-4 text-sm">
-            <a href="index.html" class="underline">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Best Hands Typing</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
-    <div class="p-20 bg-blue-800 text-white text-center">
-        <h1 class="text-4xl font-bold">Best Hands Typing Service - L.L.C - S.P.C</h1>
-        <p class="mt-4">Professional Document Follow-up & Typing Services in Abu Dhabi.</p>
-    </div>
-    <div class="max-w-4xl mx-auto mt-10 p-6 bg-white shadow rounded text-center">
-        <h2 class="font-bold text-xl text-blue-900">Official Licence Details</h2>
-        <p class="mt-2"><strong>Licence No:</strong> CN-6364912</p>
-        <p><strong>Address:</strong> Shabab Market, Mussafah M26, Abu Dhabi</p>
-    </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>BEST HANDS TYPING SERVICE - L.L.C - S.P.C</h1>
+            <p>Licensed Typing, Documents Photocopying & Transactions Follow-Up Services in Abu Dhabi, UAE.</p>
+            <p class="licence-badge">Abu Dhabi Economic Licence No: CN-6364912</p>
+            <a href="contact.html" class="btn">Contact Us Today</a>
+        </div>
+    </section>
+
+    <section class="features container">
+        <div class="card">
+            <h3>Transactions Follow-Up</h3>
+            <p>Professional government and commercial transaction processing and follow-up services.</p>
+        </div>
+        <div class="card">
+            <h3>Typing & Photocopying</h3>
+            <p>Fast, accurate typing and high-quality document photocopying services in Mussafah, Abu Dhabi.</p>
+        </div>
+        <div class="card">
+            <h3>100% Licensed & Reliable</h3>
+            <p>Officially registered with Abu Dhabi Department of Economic Development (DED).</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 BEST HANDS TYPING SERVICE - L.L.C - S.P.C. Licence No: CN-6364912. All Rights Reserved. | <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
