@@ -2,24 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | BEST HANDS TYPING SERVICE - L.L.C - S.P.C</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-gray-50">
-    <nav class="bg-blue-900 p-4 text-white flex justify-between shadow-lg">
-        <h1 class="font-bold">Best Hands Typing Service</h1>
-        <div class="space-x-4 text-sm">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html" class="underline">Contact</a>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Best Hands Typing</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
-    <div class="p-10 max-w-lg mx-auto bg-white shadow mt-10 rounded">
-        <h2 class="text-2xl font-bold mb-6">Contact Us</h2>
-        <p><strong>Address:</strong> Shabab Market, Mussafah M26, Abu Dhabi, UAE</p>
-        <p class="mt-4"><strong>Phone:</strong> +971 54 131 6027</p>
-        <p class="mt-4"><strong>Email:</strong> vexnet@vexonatural.sbs</p>
-    </div>
+    </header>
+
+    <section class="page-header">
+        <h1>Contact Our Office</h1>
+    </section>
+
+    <section class="content container">
+        <div class="contact-info">
+            <h3>Official Contact Details</h3>
+            <p><strong>Legal Entity:</strong> BEST HANDS TYPING SERVICE - L.L.C - S.P.C</p>
+            <p><strong>Licence No:</strong> CN-6364912</p>
+            <p><strong>Official Email:</strong> vexnet@vexonatural.sbs</p>
+            <p><strong>Mobile Number:</strong> +971 54 131 6027</p>
+            <p><strong>Business Location:</strong> Shabab Market, Mussafah M26, Abu Dhabi, United Arab Emirates</p>
+        </div>
+
+        <form id="contactForm" class="contact-form" style="margin-top: 30px;">
+            <h3>Send Us an Inquiry</h3>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Mobile Number" required>
+            <textarea placeholder="Service Required (e.g. Typing, Follow-Up, Photocopying)" rows="5" required></textarea>
+            <button type="submit" class="btn">Submit Request</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 BEST HANDS TYPING SERVICE - L.L.C - S.P.C. Licence No: CN-6364912. All Rights Reserved. | <a href="privacy.html">Privacy Policy</a></p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
